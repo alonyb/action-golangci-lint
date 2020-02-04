@@ -1,8 +1,8 @@
 on: push
-name: packtracker.io
+name: test rp
 jobs:
   report:
-    name: report webpack stats
+    name: report
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
