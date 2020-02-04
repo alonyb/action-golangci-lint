@@ -137,5 +137,5 @@ jobs:
         with:
           github_token: ${{ secrets.github_token }}
           golangci_lint_flags: "--disable-all -E misspell ./testdata"
-          tool_name: misspell
+          tool_name: misspell tool
           level: info
